@@ -1,0 +1,80 @@
+html{
+    text-align: center;
+}
+.container{
+  width: 600px;
+  height: 600px;
+  border: 2px black solid;
+ 
+}
+.score{
+    width: 30%;
+    height: 20px;
+    border:3px solid rgb(38, 0, 255);
+    background-color:rgb(255, 255, 255);
+    color:blueviolet;
+    font-size: 20px;
+    font-weight: 900;
+    border-style:dashed;
+     border-bottom-left-radius:10px ;
+     border-bottom-right-radius:10px ;
+
+}
+
+.caree{
+   position:relative;
+    width:100%;
+    height: 570px;
+    overflow: hidden;
+    
+}
+.partseting{
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+.part{
+    position:absolute;
+    width: 100px;
+    height:20px;
+    border:black solid 2px;
+    bottom:0;
+    background-color: orange;
+}
+.balle{
+    width:60px;
+    height: 60px;
+    border-radius: 60px;
+    position : absolute;
+    background-color: blueviolet;
+    box-shadow: 1px 1px 30px -9px rgba(32,28,227,0.94);
+   
+}
+.gameOver{
+    position: absolute;
+    font-size:80px;
+    top:150px;
+    left:30px;
+    font-family:Georgia;
+    border:5px  double rgb(132, 0, 255);
+    color:rgb(132, 0, 255);
+    display: none;
+}
+.replay{
+    position:relative;
+    display: none;
+    top:320px;
+    font-family: Georgia;
+    font-size: large;
+    background-color: blueviolet;
+    color:white;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 30px;
+    left:45%;
+
+}
+
+/* BY ELMAHDI AMARJANE*/
